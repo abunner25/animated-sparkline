@@ -1,21 +1,21 @@
 {
   "name": "Animated Sparkline",
-  "organization": "Your Org",
+  "organization": "Animated Sparkline",
   "description": "Animated left-to-right sparkline for Looker Studio.",
-  "logoUrl": "icon.png",
-  "packageUrl": "",
-  "supportUrl": "",
+  "logoUrl": "https://abunner25.github.io/animated-sparkline/icon.png",
+  "packageUrl": "https://abunner25.github.io/animated-sparkline/",
+  "supportUrl": "https://abunner25.github.io/animated-sparkline/",
   "devMode": true,
   "components": [
     {
       "id": "animatedSparkline",
       "name": "Animated Sparkline",
       "description": "SVG sparkline that animates from left to right.",
-      "iconUrl": "icon.png",
+      "iconUrl": "https://abunner25.github.io/animated-sparkline/icon.png",
       "resource": {
-        "js": "viz.js",
-        "config": "config.json",
-        "css": "styles.css"
+        "js": "https://abunner25.github.io/animated-sparkline/viz.js",
+        "config": "https://abunner25.github.io/animated-sparkline/config.json",
+        "css": "https://abunner25.github.io/animated-sparkline/styles.css"
       }
     }
   ]
