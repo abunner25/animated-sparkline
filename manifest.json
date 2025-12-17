@@ -1,0 +1,22 @@
+{
+  "name": "Animated Sparkline",
+  "organization": "Your Org",
+  "description": "Animated left-to-right sparkline for Looker Studio.",
+  "logoUrl": "icon.png",
+  "packageUrl": "",
+  "supportUrl": "",
+  "devMode": true,
+  "components": [
+    {
+      "id": "animatedSparkline",
+      "name": "Animated Sparkline",
+      "description": "SVG sparkline that animates from left to right.",
+      "iconUrl": "icon.png",
+      "resource": {
+        "js": "viz.js",
+        "config": "config.json",
+        "css": "styles.css"
+      }
+    }
+  ]
+}

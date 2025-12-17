@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "id": "sparklineData",
+      "label": "Sparkline",
+      "elements": [
+        {
+          "id": "date",
+          "label": "Date",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1,
+            "supportedTypes": ["TIME"]
+          }
+        },
+        {
+          "id": "value",
+          "label": "Metric",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "sparklineStyle",
+      "label": "Sparkline style",
+      "elements": [
+        {
+          "id": "lineColor",
+          "label": "Line color",
+          "type": "COLOR",
+          "defaultValue": "#7E57C2"
+        },
+        {
+          "id": "lineWidth",
+          "label": "Line thickness (px)",
+          "type": "NUMBER",
+          "defaultValue": 3
+        },
+        {
+          "id": "durationMs",
+          "label": "Animation duration (ms)",
+          "type": "NUMBER",
+          "defaultValue": 900
+        },
+        {
+          "id": "smooth",
+          "label": "Smooth line",
+          "type": "CHECKBOX",
+          "defaultValue": true
+        }
+      ]
+    }
+  ]
+}
